@@ -1,0 +1,40 @@
+.vid_container {
+	margin-bottom: 0px;
+}
+
+.droppable{margin-right:20px;}
+
+.movietext{
+	color: red;
+
+	z-index:3;
+
+}
+
+/********************************************************** 
+		Nedenstaaende tilfoejet af THAN 13-07-2015
+**********************************************************/
+
+.draggable {
+    text-align: center;
+    width: 120px;
+    z-index: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.draggable_container {
+    margin-bottom: 20px;
+}
+
+.part_pic {
+    position: absolute;
+    z-index: 1;
+}
+
+.imgwrapper_black {
+    background-color: black;
+    margin-right: 5px;
+}

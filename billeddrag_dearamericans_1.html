@@ -5,22 +5,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Charaterization - My Dear Americans 2</title>
-    <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="../library/css/styles.css" type="text/css" />
     <link rel="stylesheet" href="billeddrag.css" type="text/css" />
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="h1">Place words that describe the characters AFTER the turning point</div>
+        <div class="h1">Place words that describe the characters BEFORE the turning point</div>
         <div class="col-sm-12 col-md-12 characters">
             <div class="col-xs-6">
                 <div class="imgwrapper_black">
-                    <img class="img-responsive droppable" value="0" src="images/opg1/woman2.jpg" alt="...">
+                    <img class="img-responsive droppable" value="0" src="images/opg1/woman.jpg" alt="...">
                 </div>
             </div>
             <div class="col-xs-6">
                 <div class="imgwrapper_black">
-                    <img class="img-responsive droppable" value="1" src="images/opg1/man2.jpg" alt="...">
+                    <img class="img-responsive droppable" value="1" src="images/opg1/man.jpg" alt="...">
                 </div>
             </div>
             <div class="col-xs-12 draggable_container droppable" value="2">
@@ -33,23 +33,26 @@
                 <div class="btn btn-default btn_tjek btn-lg">CHECK ANSWERS</div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 video_container">
+        <div class="col-sm-12 video_container">
+            <div class="col-sm-12">
+            </div>
             <div class="embed-responsive embed-responsive-16by9 col-xs-12 col-md-12 vid_container">
-                <img class="img-responsive part_pic" src="images/2deling_2.png">
-                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/lny37_zJpFc?rel=0&start=192"></iframe>
+                <img class="img-responsive part_pic" src="images/2deling_1.png">
+                <div class="movietext"> Watch first part </div>
+                <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/lny37_zJpFc?rel=0&start=0&end=192"></iframe>
             </div>
         </div>
     </div>
-    <script src="../../../library/vendor_scripts.js"></script><script src="../../../library/custom_scripts.js"></script>
+    <script src="../library/vendor_scripts.js"></script><script src="../library/custom_scripts.js"></script>
     <script src="billeddrag.js"></script>
-    <script>
-    loadData("billeddrag_dearamericans2.json");
+        <script>
+    loadData("billeddrag_dearamericans1.json");
     </script>
     <script type="text/javascript">
     $(document).ready(function() {
-        GeneralOverlayObj.ApplyOverlay_why(".characters", "billeddrag_dearamericans_2");
+        GeneralOverlayObj.ApplyOverlay_why(".characters", "billeddrag_dearamericans_1");
 
-        GeneralOverlayObj.ApplyOverlay_how(".characters", "billeddrag_dearamericans_2");
+        GeneralOverlayObj.ApplyOverlay_how(".characters", "billeddrag_dearamericans_1");
         footer();
     });
     </script>
